@@ -1,3 +1,5 @@
+//MiniReto1: Presentacion de una persona
+
 public class DetallePersona {
     public static void main(String[] args) {
         String nombre = "Daniel Alejandro Lara";
