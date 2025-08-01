@@ -1,3 +1,4 @@
+
 public class TiposDatos {
     public static void main(String[] args) {
         //VALOR POR DEFAULT 0
