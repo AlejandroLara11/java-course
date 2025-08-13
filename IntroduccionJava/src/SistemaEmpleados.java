@@ -19,7 +19,7 @@ public class SistemaEmpleados {
         boolean jefeDepartamento = Boolean.parseBoolean(sc.nextLine());
 
         StringBuffer salida = new StringBuffer();
-        salida.append("\tNombre del empleado: ").append(nombreEmpleado).append("\n\tEdad del empleado:").append(edadEmpleado).append("\n\t Salario del Empleado por mes: ").append(salario).append("\n\t Es jefe de departamento: ").append(jefeDepartamento);
+        salida.append("\tNombre del empleado: ").append(nombreEmpleado).append("\n\tEdad del empleado:").append(edadEmpleado).append("\n\t Salario del Empleado por mes: ").append("$%.2f".formatted(salario)).append("\n\t Es jefe de departamento: ").append(jefeDepartamento);
 
         System.out.println(salida);
     }
