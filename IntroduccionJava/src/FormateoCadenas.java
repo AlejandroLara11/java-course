@@ -20,5 +20,14 @@ public class FormateoCadenas {
                 """.formatted(nombre, edad, salario);
         System.out.println(salida1);
 
+        var numeroEmpleado = 12;
+        //printf y text block, agregar ceros a la izquierda
+        System.out.printf("""
+                \nDETALLE PERSONA
+                Nombre: %s
+                Numero de Empleado: %04d
+                Edad: %d anios
+                Salario: %.2f
+                """, nombre, numeroEmpleado, edad, salario);
     }
 }
