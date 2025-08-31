@@ -12,19 +12,19 @@ public class ClaseAbstracta {
 }
 
 abstract class FiguraGeometrica{
-    abstract void dibujar();
+    public abstract void dibujar();
 }
 
 class Triangulo extends FiguraGeometrica{
     @Override
-    void dibujar(){
+    public void dibujar(){
         System.out.println("Dibujando un Triangulo...");
     }
 }
 
 class Cuadrado extends FiguraGeometrica{
     @Override
-    void dibujar(){
+    public void dibujar(){
         System.out.println("Dibujando un Cuadrado...");
     }
 }
