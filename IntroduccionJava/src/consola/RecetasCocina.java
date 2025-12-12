@@ -21,8 +21,6 @@ public class RecetasCocina {
         var dificultad = sc.nextLine();
 
         System.out.println("----RECETA DE COCINA----");
-        var salida = new StringBuffer();
-        salida.append("Nombre de la receta: " + receta).append("\nIngredientes: " + ingrediente).append("\nTiempo de preparacion: " + tiempo).append("\nNivel de dificultad: " + dificultad);
-        System.out.println(salida);
+        System.out.println("Nombre de la receta: " + receta + "\nIngredientes: " + ingrediente + "\nTiempo de preparacion: " + tiempo + "\nNivel de dificultad: " + dificultad);
     }
 }

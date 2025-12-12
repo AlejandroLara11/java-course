@@ -12,18 +12,14 @@ public class Concatenacion {
         System.out.println("Nombre Completo: " + nombreCompleto);
 
         //StringBuilder
-        var constructorStrings = new StringBuilder();
-        constructorStrings.append("Nombre completo: ");
-        constructorStrings.append(nombre);
-        constructorStrings.append(" ");
-        constructorStrings.append(apellido);
-        var resultado = constructorStrings.toString();
+        var resultado = "Nombre completo: " +
+                nombre +
+                " " +
+                apellido;
         System.out.println(resultado);
 
         //StringBuffer
-        var stringBuffer = new StringBuffer();
-        stringBuffer.append("Nombre completo: ").append(nombre).append(" ").append(apellido);
-        var salida = stringBuffer.toString();
+        var salida = "Nombre completo: " + nombre + " " + apellido;
         System.out.println(salida);
 
         //Join para unir dos o mas cadenas

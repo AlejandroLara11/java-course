@@ -1,7 +1,7 @@
 package sentencias;
 
 public class CiclosWhileFor {
-    public static void main (String args[]){
+    public static void main (String[] args){
         System.out.println("----- CICLOS WHILE Y DO WHILE  -----\n");
         var contador = 1;
 

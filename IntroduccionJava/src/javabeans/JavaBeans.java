@@ -11,7 +11,7 @@ class JavaBeans{
         var edad_usuario = usuario1.getEdad();
         System.out.println("Nombre: " + nombre_usuario);
         System.out.println("Edad: " + edad_usuario);
-        System.out.println("Informacion del usuario: \n" + usuario1);
+        System.out.println("Informacion del usuario: \n" + usuario1); //toString
     }
 }
 

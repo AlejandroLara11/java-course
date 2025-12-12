@@ -8,7 +8,7 @@ public class ManejoSubCadenas {
 
         var subCadena1 = cadena1.substring(0, 4);
         System.out.println(subCadena1);
-        var subCadena2 = cadena1.substring(5, cadena1.length());
+        var subCadena2 = cadena1.substring(5);
         System.out.println(subCadena2);
 
         //buscar subcadena con indexOf

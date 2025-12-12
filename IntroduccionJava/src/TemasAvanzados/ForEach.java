@@ -1,10 +1,10 @@
 package TemasAvanzados;
 
 public class ForEach {
-    public static void main(String[] args) {
-        int edades[] = {21, 23, 25, 28};
-        for(int numero : edades){ //EN ESTE TIPO DE FOR, NO TENEMOS ACCESO AL INDICE
-            System.out.println("Edad: "+numero);
+    public static void main (String [] args){
+        var numeros = new int[] {10,20,30,40,50};
+        for(int i : numeros){
+            System.out.println("Numero: " + i);
         }
     }
 }

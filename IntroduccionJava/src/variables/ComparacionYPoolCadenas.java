@@ -10,7 +10,7 @@ public class ComparacionYPoolCadenas {
         //estan apuntando al mismo objeto (String);
         System.out.println(cadena1 == cadena2);
 
-        var cadena3 = new String("Hola"); //creamos un nuevo (new) objeto
+        var cadena3 = "Hola"; //creamos un nuevo (new) objeto
         System.out.print("La cadena 1 es igual a la cadena 3 en referencias: ");
         System.out.println(cadena3 == cadena1);
 

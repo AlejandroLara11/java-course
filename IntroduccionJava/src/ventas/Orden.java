@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class Orden {
     private final int ID_ORDEN;
-    private Producto[] productos;
+    private final Producto[] productos;
     private int contadorProductos;
     private static int contadorOrden;
     private static final int MAX_PRODUCTOS = 10;

@@ -10,7 +10,7 @@ public class Cadenas {
                 """;
         System.out.println(cadenaMultilinea);
 
-        var cadena1 = new String("Manera formal de definir una cadena");
+        var cadena1 = "Manera formal de definir una cadena";
         System.out.println(cadena1);
 
         //Recuperar un caracter mediante indices
